@@ -54,7 +54,7 @@ any = [];
 // unknown
 let unknown: unknown = false;
 // let string1: string = unknown // unknown 형식은 string 형식에 할당할 수 없습니다. 즉, unknown 형식은 다른 형식에 할당할 수 없습니다.
-let string2: boolean = unknown as boolean; // 타입 단원을 사용하면 unknown을 다른 형식에 할당할 수 있다
+let string2: boolean = unknown as boolean; // 타입 단언을 사용하면 unknown을 다른 형식에 할당할 수 있다
 
 // Object
 let obj: object = {};
