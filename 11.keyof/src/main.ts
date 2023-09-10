@@ -4,8 +4,8 @@
 //   address: string;
 // }
 
+// // "name" | "age" | "address"
 // type UserKeys = keyof IUser;
-// "name" | "age" | "address"
 
 const user = {
   name: "John",
@@ -19,3 +19,5 @@ enum UserRole {
   admin,
   manager,
 }
+
+type UserRoleKeys = keyof typeof UserRole
